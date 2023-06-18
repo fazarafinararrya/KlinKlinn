@@ -1,0 +1,69 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/mixins' as *;
+
+/*
+************
+*************************
+05. Feature
+******************************************************* 
+*************************************************************** */
+
+.klin-feature-area {
+    background-color: #f1f3f2;
+}
+
+.klin-feature-wrapper {
+    background: $white-color;
+}
+
+.klin-feature-box {
+    border: 1px solid #d4d5d9;
+    padding: 0 40px;
+
+    &:hover .klin-feature-btn {
+        background-color: $primary_color;
+        color: $white-color;
+        border-color: $primary_color;
+
+        i {
+            color: $white-color;
+        }
+    }
+}
+
+.klin-feature-box-img {
+    margin-bottom: 30px;
+}
+
+.klin-feature-box-text {
+
+    h6 {
+        margin-bottom: 20px;
+        font-family: $poppins;
+    }
+    p {
+        margin-bottom: 30px;
+    }
+}
+
+.klin-feature-btn {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #1a213e;
+    text-transform: capitalize;
+    border: 1px solid #dbdcdf;
+    padding: 15px 30px;
+    display: inline-block;
+
+    i {
+        margin-left: 5px;
+        font-size: 20px;
+        color: $secendary_color;
+        display: inline-block;
+        @include transition(.3s);
+
+    }
+
+
+}

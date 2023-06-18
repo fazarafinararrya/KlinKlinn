@@ -1,0 +1,39 @@
+.back-title{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.back-title:hover{
+    font-size: 22px;
+    color: rgba(28, 196, 47, 1);
+    transition: 0.5s;
+}
+
+.klin-order-menu-wrapper {
+    width: 300px;
+    height: 80px;
+    display: inline-block;
+    margin-right: 105px;
+  }
+
+.klin-order-menu ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.klin-order-menu ul li {
+display: inline-block;
+position: relative;
+z-index: 2;
+}
+.klin-order-menu ul li a {
+display: block;
+padding: 37px 25px;
+font-family: "Poppins", sans-serif;
+text-transform: capitalize;
+font-weight: 500;
+color: #1a213e;
+font-size: 18px;
+text-align: start;
+}
